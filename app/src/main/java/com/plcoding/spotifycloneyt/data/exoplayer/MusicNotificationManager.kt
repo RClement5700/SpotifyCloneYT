@@ -36,8 +36,7 @@ class MusicNotificationManager(
             NOTIFICATION_ID,
             DescriptionAdapter(mediaController),
             notificationListener
-        )
-            .apply{
+        ).apply {
                 setSmallIcon(R.drawable.ic_music)
                 setMediaSessionToken(sessionToken)
         }
